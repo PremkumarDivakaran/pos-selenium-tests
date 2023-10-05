@@ -10,7 +10,7 @@ public class CreateNewVendor extends ProjectSpecificMethods{
 
 	@Test
 	public void runLogin() {
-		System.out.Println("Test Code");
+		System.out.println("Test Code");
 	}		
 	
 	/*@BeforeTest
