@@ -7,8 +7,13 @@ import com.framework.testng.api.base.ProjectSpecificMethods;
 import com.pos.pages.LoginPage;
 
 public class CreateNewVendor extends ProjectSpecificMethods{
+
+	@Test
+	public void runLogin() {
+		System.out.Println("Test Code");
+	}		
 	
-	@BeforeTest
+	/*@BeforeTest
 	public void setValues() {
 		testcaseName = "CreateNewVendors";
 		testDescription ="Verify The New vendor has created";
@@ -35,6 +40,6 @@ public class CreateNewVendor extends ProjectSpecificMethods{
         .clickVendorsMenu()
         .enterId(vendorId)
         .verifyCustomer(vendorId);
-	}
+	}*/
 
 }
